@@ -1,3 +1,7 @@
+figure/
 env/
 .vscode
 __pycache__
+output/
+input/
+

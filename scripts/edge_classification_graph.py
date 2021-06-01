@@ -10,9 +10,9 @@ import scipy as sc
 import networkx as nx
 import matplotlib
 import matplotlib.pyplot as plt
-from neuron_info import ntype, is_neuron, is_postemb
-
 import plotter
+
+from neuron_info import ntype, is_neuron, is_postemb
 
 def make_network():
 
