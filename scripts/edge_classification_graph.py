@@ -37,7 +37,6 @@ def make_network():
 
     return edges
 
-
 def edge_classification_graph(network):
 
     graph = nx.DiGraph()
@@ -100,7 +99,7 @@ def edge_classification_graph(network):
         graph.nodes[n]['y'] *= 11250.0
         graph.nodes[n]['z'] *= -150.0
     
-    nx.write_graphml(graph, './graph.graphml')
+    nx.write_graphml(graph, './output/graph.graphml')
     
     #some bug is making the marker coordinates disappear, so below is a hack to fix that.
     with open('./graph.graphml') as fil:
